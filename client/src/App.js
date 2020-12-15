@@ -5,7 +5,7 @@ import SavedList from './Movies/SavedList';
 
 import { Link, Route, Switch } from 'react-router-dom'
 
-import Movie from './Movies/Movies'
+import Movie from './Movies/Movie'
 import MovieList from './Movies/MovieList'
 
 export default function App () {

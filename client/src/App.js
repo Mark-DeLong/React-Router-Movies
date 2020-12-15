@@ -7,7 +7,6 @@ import { Link, Route, Switch } from 'react-router-dom'
 
 import Movie from './Movies/Movies'
 import MovieList from './Movies/MovieList'
-import SavedList from './Movies/SavedList'
 
 export default function App () {
   const [saved, setSaved] = useState([]); // Stretch: the ids of "saved" movies
